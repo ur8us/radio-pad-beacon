@@ -1,0 +1,31 @@
+20-pin connector
+1 -
+2 - 5V
+3 -
+4 - GND
+5 - PLL control DO
+6 - PLL control CK
+7 - PLL control LE
+8 - RX enable
+9 - PA enable
+10 - (CPU Reset, active low, 4.4V)
+11 -
+12 - (Modulator high frequency input? 5-7V, if modulation not needed, connect to GND)
+13 - TX enable
+14 -
+15 - RSSI? (for squelch functionality connect to receiver IC pin 12 and potentiometer to GND)
+16 - Demodulator audio out (for squelch functionality connect to receiver IC pin 14)
+17 -
+18 -
+19 - (Modulator low frequency input? 1.1V, if modulation not needed, connect to GND)
+20 -
+
+(Modulator audio input - point 3 on bottom side.)
+Modulator audio input - Pin 10 of TL064C on bottom side.
+
+Connect MCU pin 68 to VDD
+
+
+Receiver IC MC3371 https://www.nxp.com/docs/en/data-sheet/MC3371.pdf
+PLL IC MC145191 https://datasheet.octopart.com/MC145191FR2-Freescale-Semiconductor-datasheet-13710712.pdf
+Desolder NEC uPD70320G, NEC 710510B and MAXON IC's
